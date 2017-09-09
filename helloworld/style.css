@@ -1,0 +1,190 @@
+/*   
+Theme Name: HelloWorldV1
+Description: My basic skeleton
+Author: Shanan Almario
+Author URI: https://www.linkedin.com/in/shananalmario/
+Version: 1.0
+
+*/
+
+/**
+* Init
+**/
+body{
+	background-color:#f0f0f0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin:0;
+}
+
+/**
+* Heading and Paragraphs  
+*/
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	font-family:times;
+}
+
+h1 {
+    font-size: 2.75em;
+    line-height: 1.0909090909090908em;
+    margin-top: 0.8181818181818181em;
+    margin-bottom: 0.27272727272727em;
+}
+
+h2 {
+    font-size: 1.9375em;
+    line-height: 1.5483870967741935em;
+    margin-top: 0.7741935483870968em;
+    margin-bottom: 0em;
+}
+
+h3 {
+    font-size: 1.375em;
+    line-height: 1.0909090909090908em;
+    margin-top: 1.0909090909090908em;
+    margin-bottom: 0em;
+}
+
+h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0em;
+}
+
+h6 { 
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0;
+}
+
+p{
+	color:#6F7077;
+	margin:0;
+}
+/**
+* Navigation 
+*/
+nav{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white;
+}
+.nav{
+	font-family:helvetica;
+	font-size:14px;
+	margin: 0 auto;
+	width:65%;
+}
+.nav li{
+	list-style-type: none;
+	display: inline-block;
+}
+.nav a{
+	color: #bc5a45;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 1em;
+}
+
+nav:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/**
+* Title 
+*/
+.title_container{
+	font-family:times;
+	color: #bc5a45;
+	text-align: center;
+}
+
+.title_container h1{
+	font-weight:normal;
+	padding:0;
+	margin-bottom:0;
+	font-size:48px;
+}
+.title_container p{
+	color: #616268;
+	font-family:helvetica;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-bottom:3em;
+	padding-top:1em;
+}
+
+/**
+* Blog Content 
+*/
+
+hr{
+	border:0;
+	height:1px;
+	background:#B1B2B7;
+	background-image:linear-gradient(to right, #D3D4D8, #B1B2B7, #D3D4D8);
+}
+
+.content-wrapper {
+    max-width: 1100px;
+    margin: 0 auto; 
+    background-color:#f0f0f0;
+}
+.main-content-wrapper {
+	margin: 0 auto;
+    width: 65%;
+    background-color:white;
+    padding:4em;
+    display: block;
+    margin-bottom: 2em;
+}
+.main-content-wrapper h1, h2, h3, h4, h5, h6{
+	color:#6F7077;
+}
+.main-content-wrapper a{
+	font-weight:normal;
+	padding:1em;
+	font-size:12px;
+	color: #B1B2B7;
+	text-decoration:none;
+	font-family:helvetica;
+	text-transform:uppercase;
+}
+
+/**
+* Footer 
+*/
+footer{
+	clear:both;
+}
+
+footer .footer-navigation{
+	background-color:#f0f0f0;
+	padding-bottom:0;
+}
+
+footer a{
+	color: #686970;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 1em;
+    font-size:10px;
+}
+
+footer li{
+	list-style-type: none;
+	display:inline;
+}
